@@ -10,21 +10,20 @@ Clone the Repository:
 
 Bash
 git clone https://your_repository_url.git
-Use code with caution.
-content_copy
+
+
+
 Restore Dependencies:
 
 Bash
 cd BookStoreAPI  # Replace with your project directory name
 dotnet restore
-Use code with caution.
-content_copy
+
 Run the API:
 
 Bash
 dotnet run
-Use code with caution.
-content_copy
+
 This will start the API and display the base URL in the console.
 
 Using the API
@@ -32,7 +31,7 @@ Using the API
 This API adheres to RESTful principles, using standard HTTP methods and status codes:
 
 GET: Retrieve data
-POST: Create data (not currently implemented)
-PUT: Update data (not currently implemented)
-DELETE: Delete data (not currently implemented)
+POST: Create data 
+PUT: Update data
+DELETE: Delete data 
 The API communicates data in JSON format.
